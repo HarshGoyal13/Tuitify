@@ -1,29 +1,17 @@
-const nodemailer = require("nodemailer");
-
-const dotenv = require('dotenv');
-dotenv.config();
-
-const transporter = nodemailer.createTransport({
-  host: "smtp.mailtrap.io",
-  port: 2525,
-  auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS,
-  },
-});
+const { Resend } = require("resend");
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 const SendMail = async ({ email, subject, html }) => {
   try {
-    await transporter.sendMail({
-      from: process.env.EMAIL_USER,
+    await resend.emails.send({
+      from: "onboarding@resend.dev",  // or verified domain
       to: email,
       subject,
       html,
     });
-
     console.log("Email sent successfully");
   } catch (error) {
-    console.error("Email sending failed:", error);
+    console.error("Email failed:", error);
   }
 };
 
