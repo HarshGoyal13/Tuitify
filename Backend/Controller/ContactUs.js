@@ -1,4 +1,4 @@
-const SendGmail = require("../config/SendMail");
+const SendGmail = require("../Config/SendMail");
 
 const { getAdminEmailTemplate, getUserConfirmationTemplate} = require("../Template/template");
 
