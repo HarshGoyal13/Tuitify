@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 import { ClipLoader } from "react-spinners";
 import toast from "react-hot-toast";
 import axios from "axios";
-import {useSEO} from "../hook/UseSeo"
+import {useSEO} from "../Hook/UseSeo"
 
 
 const baseUrl = import.meta.env.VITE_SERVER_URL;
