@@ -1,5 +1,8 @@
 const SendGmail = require("../Config/SendMail");
 
+const dotenv = require('dotenv');
+dotenv.config();
+
 const { getAdminEmailTemplate, getUserConfirmationTemplate} = require("../Template/template");
 
 exports.contactUS = async (req, res) => {
