@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ClipLoader } from "react-spinners";
 import FAQ from "../Components/FAQ";
 import { Link } from "react-router-dom";
-import { useSEO } from "../hook/UseSeo";
+import { useSEO } from "../Hook/UseSeo";
 
 // ⭐ Import static courses
 import { courses as staticCourses } from "../data/Course";
