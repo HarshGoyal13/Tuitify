@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useSEO } from "../Hook/UseSeo";
 
 // ⭐ Import static courses
-import { courses as staticCourses } from "../data/Course";
+import { courses as staticCourses } from "../Data/Course";
 
 const Courses = () => {
   useSEO({
