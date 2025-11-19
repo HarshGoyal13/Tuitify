@@ -1,0 +1,23 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="90" fill="#0d0f18"/>
+
+  <!-- Terminal Header Bar -->
+  <rect x="60" y="80" width="392" height="60" rx="12" fill="#1f2330"/>
+  <circle cx="95" cy="110" r="10" fill="#ff5f56"/>
+  <circle cx="135" cy="110" r="10" fill="#ffbd2e"/>
+  <circle cx="175" cy="110" r="10" fill="#27c93f"/>
+
+  <!-- Bigger T -->
+  <text
+    x="50%"
+    y="68%"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    font-size="390"
+    font-family="monospace"
+    font-weight="700"
+    fill="#00eaff">
+    T
+  </text>
+</svg>
