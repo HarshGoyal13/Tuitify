@@ -21,7 +21,6 @@ const skills = [
   { icon: <SiJquery size={40} />, title: "jQuery" },
   { icon: <SiTailwindcss size={40} />, title: "TailwindCSS" },
   { icon: <SiReactbootstrap size={40} />, title: "Bootstrap" },
-  { icon: <SiSass size={40} />, title: "Sass" },
   { icon: <SiReact size={40} />, title: "React" },
   { icon: <DiNodejs size={40} />, title: "Node.js" },
   { icon: <SiExpress size={40} />, title: "Express.js" },
@@ -35,26 +34,8 @@ const skills = [
 
   { icon: <SiPython size={40} />, title: "Python" },
   { icon: <SiMysql size={40} />, title: "MySQL" },
-  { icon: <SiPostgresql size={40} />, title: "PostgreSQL" },
 
-  { icon: <SiTableau size={40} />, title: "Tableau" },
-  { icon: <SiR size={40} />, title: "R Language" },
-  { icon: <SiApachespark size={40} />, title: "Apache Spark" },
-  { icon: <SiJupyter size={40} />, title: "Jupyter" },
-  { icon: <SiGooglesheets size={40} />, title: "Google Sheets" },
 
-  { icon: <SiGoogleanalytics size={40} />, title: "Google Analytics" },
-  { icon: <SiGooglesearchconsole size={40} />, title: "Search Console" },
-  { icon: <SiGoogleads size={40} />, title: "Google Ads" },
-  { icon: <SiMeta size={40} />, title: "Meta Ads" },
-  { icon: <SiMailchimp size={40} />, title: "Mailchimp" },
-  { icon: <SiContentful size={40} />, title: "CMS" },
-
-  { icon: <SiFigma size={40} />, title: "Figma" },
-  { icon: <SiAdobephotoshop size={40} />, title: "Photoshop" },
-  { icon: <SiAdobeillustrator size={40} />, title: "Illustrator" },
-  { icon: <SiSketch size={40} />, title: "Sketch" },
-  { icon: <SiBlender size={40} />, title: "Blender" }
 ];
 
 // -------------------- ANIMATION VARIANTS --------------------

@@ -30,14 +30,14 @@ const Navbar = () => {
             : "bg-black/80 backdrop-blur-sm"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center relative z-[1001]">
+        <div className="max-w-7xl mx-auto px-6  flex justify-between items-center relative z-[1001]">
 
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img
               src={logo}
               alt="Tutify Logo"
-              className="h-12 w-[120px] object-contain transition-transform duration-500 hover:scale-105"
+              className="h-50% w-[150px]  transition-transform duration-500 hover:scale-105"
             />
           </Link>
 

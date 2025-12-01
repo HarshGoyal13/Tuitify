@@ -2,11 +2,10 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="robot_font min-h-screen  text-gray-200 py-16 px-6 sm:px-16">
-      
+    <div className="robot_font min-h-screen text-gray-200 py-16 px-6 sm:px-16">
       {/* HEADER */}
       <h1 className="text-4xl sm:text-5xl font-extrabold text-center text-white mb-10">
-        Privacy Policy
+        Privacy Policy & Terms of Service
       </h1>
       <p className="text-center text-gray-400 mb-12">
         Last Updated: 19 November 2025
@@ -14,108 +13,110 @@ const PrivacyPolicy = () => {
 
       {/* CONTAINER */}
       <div className="max-w-4xl mx-auto bg-gray-800/40 backdrop-blur-md p-8 rounded-xl border border-gray-700 shadow-lg">
-        
-        {/* SECTION 1 */}
-        <h2 className="text-2xl font-bold text-blue-400 mb-4">
-          1. Information We Collect
-        </h2>
-        <p className="mb-4 text-gray-300">
-          We collect personal and non-personal information to provide you with better 
-          learning experiences at Tuitify.
+
+        {/* PRIVACY POLICY */}
+        <h2 className="text-3xl font-bold text-blue-400 mb-6">Privacy Policy</h2>
+
+        <h3 className="text-xl font-semibold text-white mb-2">1. Overview</h3>
+        <p className="text-gray-300 mb-4">
+          At Tuitify, we are committed to protecting your privacy. This Privacy Policy
+          outlines the type of information we collect and how it is used when you visit
+          our website or contact us regarding our educational programs.
         </p>
 
-        <h3 className="text-xl font-semibold text-white mt-3 mb-2">
-          1.1 Personal Information
-        </h3>
+        <h3 className="text-xl font-semibold text-white mb-2">2. Information We Collect</h3>
+        <p className="text-gray-300 mb-3">
+          We collect only the essential information required to respond to your
+          inquiries and improve our services.
+        </p>
         <ul className="list-disc ml-6 text-gray-300 space-y-1">
-          <li>Name</li>
-          <li>Email Address</li>
-          <li>Phone Number</li>
-          <li>Password (Encrypted)</li>
-          <li>Payment/Billing Information</li>
-          <li>Messages or inquiries sent to us</li>
+          <li>Name (when submitted through a contact form)</li>
+          <li>Email address</li>
+          <li>Phone number (optional)</li>
+          <li>Inquiry or message details</li>
+          <li>General browser and device information</li>
+          <li>Pages viewed on our website</li>
         </ul>
 
-        <h3 className="text-xl font-semibold text-white mt-4 mb-2">
-          1.2 Non-Personal Information
-        </h3>
+        <h3 className="text-xl font-semibold text-white mt-5 mb-2">3. Use of Information</h3>
         <ul className="list-disc ml-6 text-gray-300 space-y-1">
-          <li>IP address</li>
-          <li>Browser & device information</li>
-          <li>Location (approx.)</li>
-          <li>Pages viewed & actions performed</li>
-          <li>Cookies & session data</li>
-        </ul>
-
-        {/* SECTION 2 */}
-        <h2 className="text-2xl font-bold text-blue-400 mt-8 mb-4">
-          2. How We Use Your Information
-        </h2>
-        <ul className="list-disc ml-6 text-gray-300 space-y-1">
-          <li>To create and manage your account</li>
-          <li>To deliver purchased courses</li>
-          <li>To send updates and notifications</li>
           <li>To respond to your queries</li>
-          <li>To improve our platform and content</li>
-          <li>To process payments securely</li>
+          <li>To share course-related information upon request</li>
+          <li>To analyze website performance and improve user experience</li>
         </ul>
 
-        {/* SECTION 3 */}
-        <h2 className="text-2xl font-bold text-blue-400 mt-8 mb-4">
-          3. Cookies & Tracking
-        </h2>
+        <h3 className="text-xl font-semibold text-white mt-5 mb-2">4. Data Security</h3>
         <p className="text-gray-300 mb-4">
-          We use cookies to improve your experience, remember login sessions, and analyze 
-          website traffic. You can disable cookies in your browser settings anytime.
+          We maintain industry-standard security measures to safeguard your information.
+          We do not sell, trade, or distribute your personal data to third parties.
         </p>
 
-        {/* SECTION 4 */}
-        <h2 className="text-2xl font-bold text-blue-400 mt-8 mb-4">
-          4. Data Protection
-        </h2>
+        <h3 className="text-xl font-semibold text-white mb-2">5. Third-Party Services</h3>
         <p className="text-gray-300 mb-4">
-          Your data is stored securely using encryption, authentication, and firewalls. 
-          We never sell or share your personal information with third parties.
+          We may use reliable third-party providers, such as cloud hosting or email
+          services, solely to support our operations. These providers follow strict
+          security and privacy standards.
         </p>
 
-        {/* SECTION 5 */}
-        <h2 className="text-2xl font-bold text-blue-400 mt-8 mb-4">
-          5. Third-Party Services
-        </h2>
-        <p className="text-gray-300 mb-4">
-          We may use third-party services for payments, email delivery, analytics, or 
-          cloud storage. These services follow strict data protection standards.
-        </p>
-
-        {/* SECTION 6 */}
-        <h2 className="text-2xl font-bold text-blue-400 mt-8 mb-4">
-          6. Your Rights
-        </h2>
+        <h3 className="text-xl font-semibold text-white mb-2">6. Your Rights</h3>
         <ul className="list-disc ml-6 text-gray-300 space-y-1">
-          <li>Access your data</li>
-          <li>Update or correct your information</li>
-          <li>Request deletion of your data</li>
-          <li>Opt-out of marketing emails</li>
+          <li>Request access to the information you’ve shared</li>
+          <li>Request correction or deletion of your data</li>
+          <li>Opt out of receiving any communication from us</li>
         </ul>
 
-        {/* SECTION 7 */}
-        <h2 className="text-2xl font-bold text-blue-400 mt-8 mb-4">
-          7. Changes to This Policy
-        </h2>
+        <h3 className="text-xl font-semibold text-white mt-5 mb-2">7. Policy Modifications</h3>
         <p className="text-gray-300 mb-4">
-          We may update this Privacy Policy occasionally. All updates will be posted on 
-          this page with the latest revision date.
+          We may update this Privacy Policy to reflect changes in our practices or legal
+          requirements. The latest version will always be available on this page.
         </p>
 
-        {/* SECTION 8 */}
-        <h2 className="text-2xl font-bold text-blue-400 mt-8 mb-4">
-          8. Contact Us
+        {/* TERMS & CONDITIONS */}
+        <h2 className="text-3xl font-bold text-blue-400 mt-10 mb-6">
+          Terms & Conditions
         </h2>
+
+        <h3 className="text-xl font-semibold text-white mb-2">1. Acceptance</h3>
+        <p className="text-gray-300 mb-4">
+          By accessing or using our website, you agree to these Terms & Conditions.
+          If you do not agree, please refrain from using our website.
+        </p>
+
+        <h3 className="text-xl font-semibold text-white mb-2">2. Intellectual Property</h3>
+        <p className="text-gray-300 mb-4">
+          All educational materials, graphics, videos, logos, and website content are
+          the exclusive property of Tuitify. Unauthorized reproduction, distribution,
+          or commercial use is strictly prohibited.
+        </p>
+
+        <h3 className="text-xl font-semibold text-white mb-2">3. Permitted Use</h3>
+        <ul className="list-disc ml-6 text-gray-300 space-y-1 mb-4">
+          <li>Browsing course details and program information</li>
+          <li>Submitting inquiries or requests for information</li>
+          <li>Using the website strictly for non-commercial, informational purposes</li>
+        </ul>
+
+        <h3 className="text-xl font-semibold text-white mb-2">4. Communication Consent</h3>
+        <p className="text-gray-300 mb-4">
+          By contacting us, you consent to receiving replies and necessary updates
+          related to your inquiry.
+        </p>
+
+
+
+        <h3 className="text-xl font-semibold text-white mb-2">5. Policy Updates</h3>
+        <p className="text-gray-300 mb-4">
+          We reserve the right to update these Terms at any time. Continued use of the
+          website constitutes acceptance of any revised Terms.
+        </p>
+
+        {/* CONTACT */}
+        <h2 className="text-2xl font-bold text-blue-400 mt-10 mb-4">Contact Us</h2>
         <p className="text-gray-300">
-          If you have any questions, contact us at:  
+          For any privacy or policy-related concerns, feel free to contact us at:
           <br />
           <span className="text-blue-300 font-semibold">
-            support@tuitify.com
+            harshgoyal0219@gmail.com
           </span>
         </p>
       </div>
