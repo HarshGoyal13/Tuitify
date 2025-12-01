@@ -57,14 +57,7 @@ const CourseDetails = () => {
               </p>
             </section>
 
-            {course.batchStartDate && (
-              <p className="text-gray-400 text-lg mb-4">
-                <span className="font-semibold text-yellow-400">
-                  Batch Start Date:
-                </span>{" "}
-                {new Date(course.batchStartDate).toLocaleDateString()}
-              </p>
-            )}
+         
 
             <section className="p-6 bg-gray-800 rounded-xl shadow-xl">
               <h2 className="text-3xl font-bold mb-4 text-yellow-400">

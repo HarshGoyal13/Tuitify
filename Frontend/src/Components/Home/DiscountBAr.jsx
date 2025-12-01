@@ -8,7 +8,7 @@ const DiscountBar = () => {
         <FaBolt className="text-yellow-300" />
         <p>
           🚀 <span className="font-semibold">Limited Time Offer!</span> Get{" "}
-          <span className="text-yellow-300 font-bold">50% OFF</span> on all coding courses! 🔥
+          <span className="text-yellow-300 font-bold">10% OFF</span> on all coding courses! 🔥
         </p>
       </div>
     </div>
