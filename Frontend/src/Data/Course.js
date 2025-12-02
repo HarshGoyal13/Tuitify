@@ -299,145 +299,6 @@ export const courses = [
   ]
 },
 {
-  "id": "fullstack-app-dev-master-101",
-  "name": "Full Stack App Development Master Course",
-  "description": "A complete full-stack development program covering frontend (HTML, CSS, JS, React), backend (Node.js, Express, MongoDB), and mobile app development using React Native.",
-  "about": "This program is designed to take students from zero to full-stack mastery. Starting from web basics and ending with advanced mobile app development, this course prepares students to build production-ready web apps, APIs, and mobile apps using the latest industry technologies.",
-  "category": "Full Career Program",
-  "price": 48000,
-  "discount": 10,
-  "duration": "8 Months",
-  "image": fullstackAppCourseImage,
-
-  "includes": [
-    "Live Doubt Sessions",
-    "Assignments & Coding Tasks",
-    "Frontend + Backend + Mobile Projects",
-    "Authentication & Security Training",
-    "REST API Development",
-    "Deployment Sessions",
-    "Certificate of Completion",
-    "Study Material & Notes",
-    "Portfolio & Resume Guidance",
-    "Community & Mentor Support"
-  ],
-
-  "modules": [
-
-    /* -------------------- Phase 1: Frontend Foundations -------------------- */
-    {
-      "title": "HTML Fundamentals",
-      "content": "Tags, elements, attributes, forms, semantic HTML, website structure."
-    },
-    {
-      "title": "CSS Fundamentals",
-      "content": "Selectors, box model, flexbox, grid, transitions, animations."
-    },
-    {
-      "title": "Responsive Web Design",
-      "content": "Media queries, mobile-first design, layout techniques."
-    },
-    {
-      "title": "TailwindCSS",
-      "content": "Utility-first CSS, responsive classes, components, layouts."
-    },
-
-    /* -------------------- Phase 2: JavaScript Mastery -------------------- */
-    {
-      "title": "JavaScript Basics",
-      "content": "Variables, data types, functions, arrays, objects, DOM."
-    },
-    {
-      "title": "Advanced JavaScript",
-      "content": "ES6+, closures, promises, async/await, fetch API, modules."
-    },
-
-    /* -------------------- Phase 3: React.js Frontend Development -------------------- */
-    {
-      "title": "React Fundamentals",
-      "content": "Components, props, state, events, conditional rendering."
-    },
-    {
-      "title": "React Advanced Concepts",
-      "content": "Hooks, context API, routing, API integration, custom hooks."
-    },
-    {
-      "title": "React Project",
-      "content": "Build and deploy a real web app using React."
-    },
-
-    /* -------------------- Phase 4: Backend with Node.js -------------------- */
-    {
-      "title": "Node.js Fundamentals",
-      "content": "Node architecture, modules, event loop, fs module, HTTP."
-    },
-    {
-      "title": "Express.js Backend",
-      "content": "Routing, controllers, middleware, REST APIs, error handling."
-    },
-
-    /* -------------------- Phase 5: Database (MongoDB) -------------------- */
-    {
-      "title": "MongoDB Essentials",
-      "content": "CRUD operations, schemas, collections."
-    },
-    {
-      "title": "Mongoose ORM",
-      "content": "Models, relationships, validation, timestamps."
-    },
-    {
-      "title": "Advanced MongoDB",
-      "content": "Aggregation pipeline, indexing, optimization."
-    },
-
-    /* -------------------- Phase 6: Full Stack Projects -------------------- */
-    {
-      "title": "Full Stack MERN Project",
-      "content": "React + Node.js + MongoDB full-stack web application."
-    },
-    {
-      "title": "Authentication System",
-      "content": "JWT, bcrypt, protected routes, roles."
-    },
-    {
-      "title": "Cloud File Upload",
-      "content": "Multer, Cloudinary, image handling."
-    },
-
-    /* -------------------- Phase 7: React Native App Development -------------------- */
-    {
-      "title": "React Native Basics",
-      "content": "Core components, JSX, styling, flexbox, props, state."
-    },
-    {
-      "title": "React Native Navigation",
-      "content": "Stack navigation, tab navigation, drawer navigation."
-    },
-    {
-      "title": "API Integration in React Native",
-      "content": "Fetching data, authentication, handling async tasks."
-    },
-    {
-      "title": "React Native Advanced",
-      "content": "Native modules, animations, offline storage, context, Redux (optional)."
-    },
-
-    /* -------------------- Phase 8: Final Capstone Projects -------------------- */
-    {
-      "title": "Major Full Stack App",
-      "content": "A production-grade app combining Node.js backend + React Native frontend."
-    },
-    {
-      "title": "Deployment",
-      "content": "Deploy backend on Render/Railway/AWS, deploy apps for Android/iOS."
-    },
-    {
-      "title": "Portfolio & Interview Prep",
-      "content": "Resume building, 30+ interview questions, GitHub profile optimization."
-    }
-  ]
-},
-{
   id: "tech-master-360-101",
   name: "Tech Master 360° Program",
   description:
@@ -583,6 +444,145 @@ export const courses = [
       title: "Resume & Portfolio Building",
       content:
         "Professional resume, GitHub portfolio optimization, real project showcasing."
+    }
+  ]
+},
+{
+  "id": "fullstack-app-dev-master-101",
+  "name": "Full Stack App Development Master Course",
+  "description": "A complete full-stack development program covering frontend (HTML, CSS, JS, React), backend (Node.js, Express, MongoDB), and mobile app development using React Native.",
+  "about": "This program is designed to take students from zero to full-stack mastery. Starting from web basics and ending with advanced mobile app development, this course prepares students to build production-ready web apps, APIs, and mobile apps using the latest industry technologies.",
+  "category": "Full Career Program",
+  "price": 48000,
+  "discount": 10,
+  "duration": "8 Months",
+  "image": fullstackAppCourseImage,
+
+  "includes": [
+    "Live Doubt Sessions",
+    "Assignments & Coding Tasks",
+    "Frontend + Backend + Mobile Projects",
+    "Authentication & Security Training",
+    "REST API Development",
+    "Deployment Sessions",
+    "Certificate of Completion",
+    "Study Material & Notes",
+    "Portfolio & Resume Guidance",
+    "Community & Mentor Support"
+  ],
+
+  "modules": [
+
+    /* -------------------- Phase 1: Frontend Foundations -------------------- */
+    {
+      "title": "HTML Fundamentals",
+      "content": "Tags, elements, attributes, forms, semantic HTML, website structure."
+    },
+    {
+      "title": "CSS Fundamentals",
+      "content": "Selectors, box model, flexbox, grid, transitions, animations."
+    },
+    {
+      "title": "Responsive Web Design",
+      "content": "Media queries, mobile-first design, layout techniques."
+    },
+    {
+      "title": "TailwindCSS",
+      "content": "Utility-first CSS, responsive classes, components, layouts."
+    },
+
+    /* -------------------- Phase 2: JavaScript Mastery -------------------- */
+    {
+      "title": "JavaScript Basics",
+      "content": "Variables, data types, functions, arrays, objects, DOM."
+    },
+    {
+      "title": "Advanced JavaScript",
+      "content": "ES6+, closures, promises, async/await, fetch API, modules."
+    },
+
+    /* -------------------- Phase 3: React.js Frontend Development -------------------- */
+    {
+      "title": "React Fundamentals",
+      "content": "Components, props, state, events, conditional rendering."
+    },
+    {
+      "title": "React Advanced Concepts",
+      "content": "Hooks, context API, routing, API integration, custom hooks."
+    },
+    {
+      "title": "React Project",
+      "content": "Build and deploy a real web app using React."
+    },
+
+    /* -------------------- Phase 4: Backend with Node.js -------------------- */
+    {
+      "title": "Node.js Fundamentals",
+      "content": "Node architecture, modules, event loop, fs module, HTTP."
+    },
+    {
+      "title": "Express.js Backend",
+      "content": "Routing, controllers, middleware, REST APIs, error handling."
+    },
+
+    /* -------------------- Phase 5: Database (MongoDB) -------------------- */
+    {
+      "title": "MongoDB Essentials",
+      "content": "CRUD operations, schemas, collections."
+    },
+    {
+      "title": "Mongoose ORM",
+      "content": "Models, relationships, validation, timestamps."
+    },
+    {
+      "title": "Advanced MongoDB",
+      "content": "Aggregation pipeline, indexing, optimization."
+    },
+
+    /* -------------------- Phase 6: Full Stack Projects -------------------- */
+    {
+      "title": "Full Stack MERN Project",
+      "content": "React + Node.js + MongoDB full-stack web application."
+    },
+    {
+      "title": "Authentication System",
+      "content": "JWT, bcrypt, protected routes, roles."
+    },
+    {
+      "title": "Cloud File Upload",
+      "content": "Multer, Cloudinary, image handling."
+    },
+
+    /* -------------------- Phase 7: React Native App Development -------------------- */
+    {
+      "title": "React Native Basics",
+      "content": "Core components, JSX, styling, flexbox, props, state."
+    },
+    {
+      "title": "React Native Navigation",
+      "content": "Stack navigation, tab navigation, drawer navigation."
+    },
+    {
+      "title": "API Integration in React Native",
+      "content": "Fetching data, authentication, handling async tasks."
+    },
+    {
+      "title": "React Native Advanced",
+      "content": "Native modules, animations, offline storage, context, Redux (optional)."
+    },
+
+    /* -------------------- Phase 8: Final Capstone Projects -------------------- */
+    {
+      "title": "Major Full Stack App",
+      "content": "A production-grade app combining Node.js backend + React Native frontend."
+    },
+    {
+      "title": "Deployment",
+      "content": "Deploy backend on Render/Railway/AWS, deploy apps for Android/iOS."
+    },
+    {
+      "title": "Portfolio & Interview Prep",
+      "content": "Resume building, 30+ interview questions, GitHub profile optimization."
     }
   ]
 },
