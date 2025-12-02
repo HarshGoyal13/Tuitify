@@ -4,6 +4,9 @@ import cppDSAImage from "../assets/c++.png";
 import mernImage from "../assets/mern.jpg";
 import blockchainImage from "../assets/Blockchain.png";
 import techMasterImage from "../assets/TechMaster.png";
+import cppSchoolImage from "../assets/c++10.png";
+import frontendCourseImage from "../assets/front.png";
+import nodeCourseImage from "../assets/back.png";
 
 
 
@@ -442,7 +445,384 @@ export const courses = [
         "Professional resume, GitHub portfolio optimization, real project showcasing."
     }
   ]
+},
+{
+  "id": "cpp-school-master-11-12",
+  "name": "C++ Master Course for Class 11 & 12",
+  "description": "A beginner-friendly C++ course designed specially for Class 11 & 12 students focusing on school syllabus, logic building, and strong programming foundations.",
+  "about": "This course covers the complete Class 11 & 12 C++ syllabus along with practical programming foundations. Students will learn everything from basics to object-oriented programming in a very easy and structured way, preparing them for board exams and future programming careers.",
+  "category": "School Programming Course",
+  "price": 15000,
+  "discount": 10,
+  "duration": "6 Months",
+  "image": cppSchoolImage,
+
+  "includes": [
+    "Live Doubt Sessions",
+    "Board Exam-Oriented Notes",
+    "Assignments & Worksheets",
+    "Monthly Tests",
+    "Practical File Guidance",
+    "C++ Programs Practice Sheets",
+    "Mini Projects",
+    "Completion Certificate",
+    "Mentor Support",
+    "MCQ + Theory Tests for Boards"
+  ],
+
+  "modules": [
+    /* -------------------- Basics (Class 11 Level) -------------------- */
+    {
+      "title": "Introduction to Programming",
+      "content": "What is programming, problem solving basics, flowcharts, algorithms."
+    },
+    {
+      "title": "Basics of C++",
+      "content": "Structure of a C++ program, cout/cin, variables, data types, constants, keywords."
+    },
+    {
+      "title": "Operators in C++",
+      "content": "Arithmetic, relational, logical, assignment, increment/decrement, operator precedence."
+    },
+    {
+      "title": "Control Statements",
+      "content": "if-else, nested if, switch-case, loops (for, while, do-while), break, continue."
+    },
+    {
+      "title": "Functions",
+      "content": "Function declaration, return types, parameters, pass by value/reference, inline functions."
+    },
+    {
+      "title": "Arrays (1D & 2D)",
+      "content": "Declaration, initialization, traversing, searching, sorting basics."
+    },
+    {
+      "title": "Strings in C++",
+      "content": "Character arrays, string handling functions, input/output techniques."
+    },
+
+    /* -------------------- OOP + Class 12 Level -------------------- */
+    {
+      "title": "Object-Oriented Programming Basics",
+      "content": "Classes, objects, member functions, access specifiers."
+    },
+    {
+      "title": "Constructors & Destructors",
+      "content": "Default, parameterized, copy constructor, destructor working."
+    },
+    {
+      "title": "Inheritance",
+      "content": "Types of inheritance, base/derived classes, protected members, constructor order."
+    },
+    {
+      "title": "Polymorphism",
+      "content": "Function overloading, operator overloading, basics of runtime polymorphism."
+    },
+    {
+      "title": "Encapsulation & Abstraction",
+      "content": "Header files, class encapsulation, abstraction roles in C++."
+    },
+    {
+      "title": "Pointers",
+      "content": "Pointer basics, pointer arithmetic, pointers with arrays & functions."
+    },
+    {
+      "title": "File Handling",
+      "content": "Opening, closing files, read/write using fstream, handling file errors."
+    },
+
+    /* -------------------- Core Logic Building -------------------- */
+    {
+      "title": "School-Level DSA Basics",
+      "content": "Searching (linear, binary), sorting (bubble, selection), stacks/queues introduction."
+    },
+    {
+      "title": "Mathematics in Programming",
+      "content": "Prime numbers, factors, patterns, number system, important logic programs."
+    },
+
+    /* -------------------- Projects & Exam Prep -------------------- */
+    {
+      "title": "Mini Projects",
+      "content": "Library management, student database, billing system, quiz application."
+    },
+    {
+      "title": "Practical File Preparation",
+      "content": "20+ programs for practical file, formatting, viva preparation."
+    },
+    {
+      "title": "Board Exam Preparation",
+      "content": "Chapter-wise notes, MCQs, long questions, sample paper practice."
+    }
+  ]
+},
+{
+  "id": "frontend-master-beginner-101",
+  "name": "Frontend Development Master Course",
+  "description": "A complete beginner-friendly course to learn Frontend Development from HTML, CSS, TailwindCSS, JavaScript basics to powerful React.js applications.",
+  "about": "This course is designed for students who want to start their journey in web development. You will learn everything required to build professional, responsive, modern websites and dynamic single-page applications using HTML, CSS, TailwindCSS, JavaScript, and React.js. No prior coding knowledge required.",
+  "category": "Development",
+  "price": 20000,
+  "discount": 10,
+  "duration": "4 Months",
+  "image": frontendCourseImage,
+
+  "includes": [
+    "Live Doubt Sessions",
+    "Assignments + Projects",
+    "Responsive Website Practice",
+    "Component-Based UI Training",
+    "React.js Project Walkthroughs",
+    "Mini + Major Projects",
+    "Certificate of Completion",
+    "Study Material & Notes",
+    "Portfolio & Resume Guidance",
+    "Community + Mentor Support"
+  ],
+
+  "modules": [
+    /* -------------------- Module 1: HTML -------------------- */
+    {
+      "title": "HTML Basics",
+      "content": "Introduction to web, tags, elements, attributes, headings, paragraphs, links, images."
+    },
+    {
+      "title": "Structuring Websites",
+      "content": "Lists, tables, semantic tags (header, footer, section, article)."
+    },
+    {
+      "title": "Forms & Inputs",
+      "content": "Form tag, input types, buttons, labels, validation basics."
+    },
+    {
+      "title": "HTML Project",
+      "content": "Build a basic multi-page website using pure HTML."
+    },
+
+    /* -------------------- Module 2: CSS -------------------- */
+    {
+      "title": "CSS Fundamentals",
+      "content": "Selectors, colors, units, box model, display properties."
+    },
+    {
+      "title": "Layouts",
+      "content": "Flexbox, grid, positioning, responsive units, media queries."
+    },
+    {
+      "title": "Styling Techniques",
+      "content": "Borders, shadows, transitions, animations, pseudo classes/elements."
+    },
+    {
+      "title": "CSS Project",
+      "content": "Create a responsive landing page with animations."
+    },
+
+    /* -------------------- Module 3: TailwindCSS -------------------- */
+    {
+      "title": "Introduction to TailwindCSS",
+      "content": "Why Tailwind, installation, utility-first concept."
+    },
+    {
+      "title": "Styling with Tailwind",
+      "content": "Containers, spacing, typography, colors, flex, grid."
+    },
+    {
+      "title": "Components & UI Patterns",
+      "content": "Navbar, hero section, cards, forms, animations."
+    },
+    {
+      "title": "Tailwind Project",
+      "content": "Build a fully responsive modern website with Tailwind components."
+    },
+
+    /* -------------------- Module 4: JavaScript Essentials -------------------- */
+    {
+      "title": "JavaScript Basics",
+      "content": "Variables, data types, operators, conditionals, loops."
+    },
+    {
+      "title": "Functions & Arrays",
+      "content": "Normal & arrow functions, arrays, objects, iteration."
+    },
+    {
+      "title": "DOM Manipulation",
+      "content": "Selecting elements, events, dynamic UI changes."
+    },
+    {
+      "title": "APIs & Fetch",
+      "content": "Working with APIs, fetch(), promises, JSON."
+    },
+    {
+      "title": "JavaScript Mini Projects",
+      "content": "Todo app, calculator, color switcher, counter, form validation."
+    },
+
+    /* -------------------- Module 5: React.js -------------------- */
+    {
+      "title": "React Fundamentals",
+      "content": "Components, props, JSX, folder structure, reusable UI."
+    },
+    {
+      "title": "State & Hooks",
+      "content": "useState, useEffect, events, conditional rendering."
+    },
+    {
+      "title": "Routing & Navigation",
+      "content": "React Router, pages, navigation, dynamic routes."
+    },
+    {
+      "title": "Working with APIs",
+      "content": "Fetch API data, handle loading & errors, dynamic UI updates."
+    },
+    {
+      "title": "Context API",
+      "content": "Global state management, theme switchers, auth basics."
+    },
+    {
+      "title": "React Project",
+      "content": "Build a complete SPA website or dashboard with multiple pages."
+    },
+
+    /* -------------------- Final Phase -------------------- */
+    {
+      "title": "Portfolio Building",
+      "content": "Create personal portfolio website with projects & animations."
+    },
+    {
+      "title": "Frontend Interview Prep",
+      "content": "HTML/CSS/JS important interview questions, tips, portfolio review."
+    }
+  ]
+},
+{
+  "id": "backend-nodejs-master-101",
+  "name": "Node.js Backend Development Master Course",
+  "description": "A complete backend development course covering Node.js, Express.js, MongoDB, Authentication, API development, and deployment.",
+  "about": "This backend course is designed for students who want to master server-side development. You will learn how the backend works, how APIs are created, how databases store data, and how secure applications are built using Node.js, Express.js, and MongoDB. By the end, you will be able to build production-level backend systems and real-world applications.",
+  "category": "Development",
+  "price": 24000,
+  "discount": 10,
+  "duration": "4 Months",
+  "image": nodeCourseImage,
+
+  "includes": [
+    "Live Doubt Sessions",
+    "Assignments & Coding Tasks",
+    "Backend + Database Projects",
+    "Authentication & Security training",
+    "REST API Development",
+    "Deployment Sessions",
+    "Certificate of Completion",
+    "Study Material & Notes",
+    "Portfolio & Resume Guidance",
+    "Community & Mentor Support"
+  ],
+
+  "modules": [
+
+    /* -------------------- Module 1: Backend Fundamentals -------------------- */
+    {
+      "title": "How the Web Works",
+      "content": "Client-server model, HTTP basics, request/response cycle, APIs, backend architecture."
+    },
+    {
+      "title": "Introduction to Node.js",
+      "content": "What is Node, how Node works, event loop, non-blocking model, modules."
+    },
+    {
+      "title": "Node.js Core Modules",
+      "content": "FS, path, OS, http module, creating a basic server."
+    },
+
+    /* -------------------- Module 2: Express.js Essentials -------------------- */
+    {
+      "title": "Express.js Basics",
+      "content": "Routes, middlewares, REST APIs, controllers."
+    },
+    {
+      "title": "Advanced Express",
+      "content": "Error handling, cookies, sessions, environment variables, folder structure."
+    },
+
+    /* -------------------- Module 3: MongoDB & Mongoose -------------------- */
+    {
+      "title": "MongoDB Fundamentals",
+      "content": "NoSQL basics, CRUD operations, collections, documents."
+    },
+    {
+      "title": "Mongoose ORM",
+      "content": "Schemas, models, relationships, timestamps, validation."
+    },
+    {
+      "title": "MongoDB Advanced",
+      "content": "Aggregation pipeline, indexes, query optimization."
+    },
+
+    /* -------------------- Module 4: Authentication & Security -------------------- */
+    {
+      "title": "User Authentication",
+      "content": "Signup/Login, password hashing, JWT authentication, bcrypt, tokens."
+    },
+    {
+      "title": "Authorization & Access Control",
+      "content": "Role-based access, middleware protection."
+    },
+    {
+      "title": "Security Essentials",
+      "content": "Helmet, rate limiting, CORS, preventing SQL injection, XSS protection."
+    },
+
+    /* -------------------- Module 5: APIs & Architecture -------------------- */
+    {
+      "title": "REST API Deep Dive",
+      "content": "Best practices, versioning, status codes, validation."
+    },
+    {
+      "title": "File Uploads & Cloud Storage",
+      "content": "Multer, Cloudinary, image upload handling."
+    },
+    {
+      "title": "Email & Notifications",
+      "content": "Nodemailer, email templates."
+    },
+    {
+      "title": "Payment Integration",
+      "content": "Razorpay/Stripe basics and checkout flow."
+    },
+
+    /* -------------------- Module 6: Real Backend Projects -------------------- */
+    {
+      "title": "Mini Backend Projects",
+      "content": "Blog API, Todo backend, Notes app, User CRUD system."
+    },
+    {
+      "title": "Major Backend Project",
+      "content": "Build a complete production-grade backend with authentication, role access, database, email, and deployment."
+    },
+
+    /* -------------------- Module 7: Deployment & DevOps Basics -------------------- */
+    {
+      "title": "Deployment",
+      "content": "Deploy Node apps on Render, Railway, Vercel, or AWS. Environment configs, production builds."
+    },
+    {
+      "title": "Git & GitHub",
+      "content": "Version control, branching, pull requests, GitHub workflows."
+    },
+
+    /* -------------------- Final Phase -------------------- */
+    {
+      "title": "Portfolio Building",
+      "content": "How to showcase backend projects professionally."
+    },
+    {
+      "title": "Backend Interview Preparation",
+      "content": "Most asked backend interview questions, MCQs, coding rounds."
+    }
+  ]
 }
+
+
 
 
 
