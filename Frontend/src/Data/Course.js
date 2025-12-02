@@ -2,7 +2,7 @@
 
 import cppDSAImage from "../assets/c++.png";
 import mernImage from "../assets/mern.jpg";
-import fullstackAppCourseImage from "../assets/app.jpg";
+import fullstackAppCourseImage from "../assets/app.png";
 import blockchainImage from "../assets/Blockchain.png";
 import techMasterImage from "../assets/TechMaster.png";
 import cppSchoolImage from "../assets/c++10.png";
