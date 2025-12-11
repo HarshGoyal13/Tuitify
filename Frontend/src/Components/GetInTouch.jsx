@@ -151,36 +151,7 @@ export default function ContactSection() {
             </motion.div>
           </form>
 
-          {/* LOCATION SECTION — Enhanced */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-lg mt-4">
-
-            {locations.map((loc, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5 + i * 0.2 }}
-                className="group p-5 rounded-xl bg-gray-900 border border-gray-700 
-                           hover:border-blue-500 hover:shadow-[0_0_20px_rgba(59,130,246,0.5)]
-                           hover:bg-gray-800 transition-all shadow-lg cursor-pointer"
-              >
-                <div className="flex items-start gap-4">
-                  <FaMapMarkerAlt className="text-blue-400 text-3xl group-hover:scale-110 transition-transform" />
-                  <div>
-                    <h4 className="font-bold text-xl group-hover:text-blue-400 transition">
-                      {loc.city}
-                    </h4>
-                    <p className="text-gray-400 text-sm mt-1">
-                      {loc.desc}
-                    </p>
-                  </div>
-                </div>
-
-                <div className="mt-3 h-[2px] w-0 bg-blue-500 group-hover:w-full transition-all"></div>
-              </motion.div>
-            ))}
-
-          </div>
+      
 
         </div>
       </div>

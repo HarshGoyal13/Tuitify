@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { HiLocationMarker } from 'react-icons/hi';
 import menimage from "../assets/men.png";
 import laptop from "../assets/laptop.png";
 import { useSEO } from "../Hook/UseSeo";
@@ -137,7 +136,6 @@ const About = () => {
             </p>
           </motion.div>
 
-          {/* BRANCHES + CONTACT SECTION */}
           <motion.div
             variants={slideUp}
             initial="hidden"
